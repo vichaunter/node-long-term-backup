@@ -14,7 +14,9 @@ Have in mind that the base folder should be prefilled with your own backups, for
 
 ## How to use it?
 Just clone it and run:
-`node index.js`
+`yarn start`
+`npm start`
+`node ./src/index.js`
 
 ## Cofiguration
 Comments inside config.js

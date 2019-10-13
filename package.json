@@ -1,0 +1,15 @@
+{
+  "name": "backup_manager",
+  "version": "1.0.0",
+  "description": "backup manager in js for incremental and long term backups",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "date-diff": "^0.2.1",
+    "fs": "^0.0.1-security",
+    "fs-sync": "^1.0.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

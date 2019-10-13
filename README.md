@@ -9,9 +9,12 @@ This script is intended to have a origin folder as entry point (local folder), a
 
 This way you can store only for example last 7 days of backups, and in another folders several copies weekly and monthly with specific limit to have revert back guarantee and reduce storage required.
 
+###### Note
+Have in mind that the base folder should be prefilled with your own backups, for example with rsync from a remote machine.
+
 ## How to use it?
 Just clone it and run:
 `node index.js`
 
 ## Cofiguration
-
+Comments inside config.js

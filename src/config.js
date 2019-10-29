@@ -1,6 +1,7 @@
 "use strict";
 
 const config = {
+  debug: true,
   // total number of copies to keep for each mode (0 = none)
   totals: {
     daily: 7,

@@ -17,10 +17,10 @@ const syncFile = (origFilePath, destFilePath) => {
   } catch (err) {}
 
   if (!destFileStats || origFileStats.size !== destFileStats.size) {
-    fs.copyFileSync(origFilePath, destFilePath);
-    return "File copied";
+    !config.debug && fs.copyFileSync(origFilePath, destFilePath);
+    return `File copied`;
   } else {
-    return "Identical files.";
+    return `Identical files`;
   }
 };
 
